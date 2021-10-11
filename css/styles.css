@@ -47,7 +47,7 @@
         margin-bottom: 20px;
     }
 }
-@media (max-width:426px) {
+@media (max-width:320px) {
     .car-section{
         display: flex;
         flex-direction: column;
