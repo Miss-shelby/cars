@@ -1,0 +1,61 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.dream-car{
+    background-image: url('../images/black\ porche\ \(2\).jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.car-cont{
+    background-image: url('../images/black\ porche.jpg');
+    background-position: 50%;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin: 0;
+}
+.car-section{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.car-particulars{
+    width:33%;
+    padding: 0 15px;
+    margin-bottom: 20px;
+}
+.car-image img{
+    height:300px;
+    width:100%
+}
+.car-info{
+    text-align: center;
+    color:whitesmoke;
+}
+@media (max-width:769px) {
+    .car-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .car-particulars{
+        align-items: center;
+        width:100%;
+        padding: 0 15px;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width:426px) {
+    .car-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .car-particulars{
+        align-items: center;
+        width:100%;
+        padding: 0 15px;
+        margin-bottom: 20px;
+    }
+}
